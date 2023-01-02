@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <Spinner
+                android:id="@+id/kategorie_aktualizacja"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="15dp"
+                android:entries="@array/kategorie"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+
+            <EditText
+                android:id="@+id/tytul_aktualizacja"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:hint="@string/doodawanie_tytul"
+                android:inputType="text"
+                android:layout_below="@id/kategorie_aktualizacja"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <EditText
+                android:id="@+id/opis_aktualizacja"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:hint="@string/dodawanie_opis"
+                android:inputType="text|textMultiLine"
+                android:layout_below="@id/tytul_aktualizacja"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <EditText
+                android:id="@+id/skladniki_aktualizacja"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:hint="@string/dodawanie_skladniki"
+                android:inputType="text|textMultiLine"
+                android:layout_below="@id/opis_aktualizacja"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <EditText
+                android:id="@+id/wykonanie_aktualizacja"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:hint="@string/dodawanie_wykonanie"
+                android:inputType="text|textMultiLine"
+                android:layout_below="@id/skladniki_aktualizacja"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <ImageView
+                android:id="@+id/zdjeciePrzepisAktualizuj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/wykonanie_aktualizacja"
+                android:adjustViewBounds="true"
+                android:maxHeight="250dp"
+                />
+            <Button
+                android:id="@+id/zdjecie_aktualizacja"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/zdjeciePrzepisAktualizuj"
+                android:layout_centerHorizontal="true"
+                android:text="@string/dodawanie_btn_zdjecie"
+                android:layout_marginTop="5dp"/>
+
+            <Button
+                android:id="@+id/zapisz_aktualizacja"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/zdjecie_aktualizacja"
+                android:layout_centerHorizontal="true"
+                android:onClick="zapisz"
+                android:text="@string/dodawanie_btn_zapisz"/>
+
+            <Button
+                android:id="@+id/anuluj_aktualizacja"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:text="@string/dodawanie_btn_anuluj"
+                android:onClick="anuluj"
+                android:layout_below="@id/zapisz_aktualizacja"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

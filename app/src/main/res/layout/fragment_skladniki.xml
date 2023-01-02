@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SkladnikiFragment">
+
+    <TextView
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/skladniki_tabview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:gravity="start"/>
+
+</FrameLayout>

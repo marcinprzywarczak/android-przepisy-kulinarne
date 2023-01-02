@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Przepisy</string>
+    <string name="mass">Masa względem ziemi</string>
+    <string name="radius">Promień:</string>
+
+    <string name="nav_open_drawer">Otwórz szufladę</string>
+    <string name="nav_close_drawer">Zamknij szufladę</string>
+
+    <string-array name="kategorie">
+        <item>Dania główne</item>
+        <item>Makarony</item>
+        <item>Zupy</item>
+        <item>Pizza</item>
+        <item>Street food</item>
+        <item>Naleśniki</item>
+        <item>Sałatki</item>
+        <item>Kanapki</item>
+        <item>Przystawki</item>
+        <item>Domowe przetwory</item>
+    </string-array>
+    <string name="title_activity_baza_danych">BazaDanych</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dania_glowne">Dania główne</string>
+    <string name="makarony">Makarony</string>
+    <string name="zupy">Zupy</string>
+    <string name="pizza">Pizza</string>
+    <string name="street_food">Street food</string>
+    <string name="nale_niki">Naleśniki</string>
+    <string name="salatki">Sałatki</string>
+    <string name="kanapki">Kanapki</string>
+    <string name="przystawki">Przystawki</string>
+    <string name="domowe_przetwory">Domowe przetwory</string>
+    <string name="doodawanie_tytul">Wprowadź tytuł przepisu</string>
+    <string name="dodawanie_opis">Wprowadź krótki opis</string>
+    <string name="dodawanie_skladniki">Wprowadź składniki przepisu</string>
+    <string name="dodawanie_wykonanie">Wprowadź kroki wykonania</string>
+    <string name="dodawanie_btn_zdjecie">Dodaj zdjęcie</string>
+    <string name="dodawanie_btn_zapisz">Zapisz</string>
+    <string name="dodawanie_btn_anuluj">Anuluj</string>
+    <string name="btn_edytuj">Edytuj</string>
+    <string name="btn_usun">Usuń</string>
+    <string name="tab_skladniki">Składniki</string>
+    <string name="tab_wykonanie">Wykonanie</string>
+    <string name="zdjecie_przepisu">Zdjęcie przepisu</string>
+    <string name="app_info">Informacje o aplikacji</string>
+    <string name="autor">Autorem aplikacji jest Marcin Przywarczak</string>
+    <string name="licencja">Aplikacja udostępniona na zasadach wolnej licencji</string>
+    <string name="wyszukaj">Wyszukaj</string>
+</resources>

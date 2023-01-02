@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_16"
+            android:icon="@android:drawable/btn_star"
+            android:title="@string/dania_glowne"
+            android:checked="true"/>
+
+        <item android:id="@+id/nav_17"
+            android:icon="@android:drawable/btn_star"
+            android:title="@string/makarony"
+            android:checked="true"/>
+
+        <item android:id="@+id/nav_18"
+            android:icon="@android:drawable/btn_star"
+            android:title="@string/zupy"
+            android:checked="true"/>
+
+        <item android:id="@+id/nav_19"
+            android:icon="@android:drawable/btn_star"
+            android:title="@string/pizza"
+            android:checked="true"/>
+
+        <item android:id="@+id/nav_110"
+            android:icon="@android:drawable/btn_star"
+            android:title="@string/street_food"
+            android:checked="true"/>
+
+        <item android:id="@+id/nav_111"
+            android:icon="@android:drawable/btn_star"
+            android:title="@string/nale_niki"
+            android:checked="true"/>
+
+        <item android:id="@+id/nav_112"
+            android:icon="@android:drawable/btn_star"
+            android:title="@string/salatki"
+            android:checked="true"/>
+
+        <item android:id="@+id/nav_113"
+            android:icon="@android:drawable/btn_star"
+            android:title="@string/kanapki"
+            android:checked="true"/>
+
+        <item android:id="@+id/nav_114"
+            android:icon="@android:drawable/btn_star"
+            android:title="@string/przystawki"
+            android:checked="true"/>
+
+
+        <item android:id="@+id/nav_115"
+            android:icon="@android:drawable/btn_star"
+            android:title="@string/domowe_przetwory"
+            android:checked="true"/>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/navInfo"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="@string/app_info"
+            android:checked="true"/>
+    </group>
+</menu>
